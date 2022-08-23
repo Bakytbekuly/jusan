@@ -1,0 +1,29 @@
+
+.profile-img {
+  width: 80px;
+  border-radius: 30%;
+  object-fit: cover;
+  display: block;
+  padding: 20px;
+  padding-right: 10px;
+}
+.side-profile div{
+    margin-bottom: 20px;
+}
+.side-profile {
+  display:flex;
+  align-items: center;
+}
+.side-profile h3{
+  line-height: .7;
+  font-weight: 700;
+  font-size: 20px;
+    margin: 0;
+    color:var(--primary-color)
+}
+.side-profile span{
+    color:   #F26522;
+    opacity: .7;
+    font-weight: 400;
+    font-size: 12px;
+}
