@@ -1,0 +1,26 @@
+.birthday_cake{
+    color: #fff;
+    position: absolute;
+    bottom: 40px;
+    right: 80px;
+    border: 1px solid #fe5000;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #fe5000;
+    animation: shake 2s infinite ease-in-out;
+    cursor: pointer;
+}
+.birthday_cake:hover{
+    opacity: .7;
+}
+@keyframes shake {
+  0%{
+    scale: 1;
+  }
+  50%{
+    scale: 1.2;
+  }
+  100%{
+    scale: 1;
+  }
+}

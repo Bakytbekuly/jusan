@@ -4,12 +4,17 @@ ul{
    flex-direction: column;
    align-items: center;
    
+   width: 100%;
 }
 .side-menu {
     display: flex;
+    flex-grow: 1;
+    justify-self: stretch;
 }
 .side_menu_item {
-    
+
+    border-bottom: 1px solid #ccc;
+    width: 90%;
     font-weight: 400;
     font-size: 16px;
     color:#F26522;
@@ -24,4 +29,5 @@ ul{
 .logOut{
    position: absolute;
    bottom: 0;
+   width: 10%;
   }
